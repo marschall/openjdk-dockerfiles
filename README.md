@@ -1,7 +1,7 @@
 Builidng OpenJDK with Docker
 ============================
 
-The following dockerfiles allows you to locally build a fastdebug OpenJDK with unlimited crypto without having to install all the necessary libraries on your system.
+The following dockerfiles allows you to locally build a fastdebug OpenJDK with unlimited crypto policy without having to install all the necessary libraries on your system.
 
 You can build OpenJDK with
 
@@ -18,7 +18,6 @@ Caveats
 -------
 
  * Currently OpenJDK 10 does not build because the OpenJDK 9 bootstrap JVM in Ubuntu is too old.
- * Currently OpenJDK 8 does not build because Ubuntu 17.04 is too new.
 
 
 Credits
@@ -28,3 +27,4 @@ A lot is taken from
 
  * http://arturmkrtchyan.com/building-openjdk-9-on-ubuntu
  * https://github.com/cloudfoundry/java-buildpack-dependency-builder/blob/master/openjdk.sh
+ * https://github.com/hgomez/obuildfactory/wiki/How-to-build-and-package-OpenJDK-8-on-Linux

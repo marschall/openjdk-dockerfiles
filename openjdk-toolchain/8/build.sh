@@ -9,7 +9,7 @@ sh get_source.sh
 # you can look in .hgtags to find all tags
 # sh common/bin/hgforest.sh checkout jdk8-b132
 
-bash ./configure --enable-debug --enable-unlimited-crypto \
+bash ./configure --enable-debug --enable-unlimited-crypto\
   --with-freetype-include=/usr/include/freetype2 \
   --with-freetype-lib=/usr/lib/x86_64-linux-gnu
 
