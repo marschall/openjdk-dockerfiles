@@ -21,6 +21,7 @@ RUN apt-get update && apt-get install -y \
   cpio
 
 env LANG C
+env DISABLE_HOTSPOT_OS_VERSION_CHECK ok
 
 VOLUME ["/jdk"]
 

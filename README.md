@@ -17,10 +17,14 @@ In general the more CPU and memory resources the docker container has the quicke
 Caveats
 -------
 
-Currently OpenJDK 10 does not build because the OpenJDK 9 bootstrap JVM in Ubuntu is too old.
+ * Currently OpenJDK 10 does not build because the OpenJDK 9 bootstrap JVM in Ubuntu is too old.
+ * Currently OpenJDK 8 does not build because Ubuntu 17.04 is too new.
 
 
 Credits
 -------
 
-A lot is taken from http://arturmkrtchyan.com/building-openjdk-9-on-ubuntu.
+A lot is taken from
+
+ * http://arturmkrtchyan.com/building-openjdk-9-on-ubuntu
+ * https://github.com/cloudfoundry/java-buildpack-dependency-builder/blob/master/openjdk.sh
