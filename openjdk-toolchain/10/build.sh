@@ -6,7 +6,7 @@ cd /jdk
 
 sh get_source.sh
 
-bash ./configure --enable-debug --disable-warnings-as-errors
+bash ./configure --enable-debug --enable-unlimited-crypto --disable-warnings-as-errors
 
 make clean
 make all
