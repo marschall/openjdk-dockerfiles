@@ -15,9 +15,7 @@ RUN apt-get update && apt-get install -y \
 # FreeType 2 font engine
   libfreetype6-dev \
 # CUPS library
-  libcups2-dev \
-# AOT
-  libelf-dev
+  libcups2-dev
 
 env LANG C
 
